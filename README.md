@@ -26,4 +26,6 @@ The field injection is handy during class inheritance, which we do not possess f
 <h3>Hilt modules</h3>
 The modules are sources of the required class instances for classes which depend on them. Sometimes, you miss ownership of the class, or the third party library gives you an interface to inherit, but no specific implementation, or the creation of the instance does not have an empty constructor. The modules create space for objects to construct instances and pass them to Hilt to figure out where to put them without much of the code. There are two variants: module and binding.
 
+<br><br>
+
 Author - Amir
