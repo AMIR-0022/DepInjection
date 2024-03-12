@@ -2,11 +2,7 @@
 
 Dependency injection (DI) is a technique widely used in programming and well suited to Android development, where dependencies are provided to a class instead of creating them itself. By following DI principles, you lay the groundwork for good app architecture, greater code reusability, and ease of testing.
 
-<br>
-
 The hilt is a dependency injection (DI) framework based on Dagger. So, anyone who used Dagger in the past will have an easy time learning to use Hilt for Android development.
-
-<br>
 
 <h3>Constructor and Field Injection</h3>
 If the dependency is passed to the class, it can be done in two ways. With constructor and field injection.
